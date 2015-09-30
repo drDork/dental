@@ -44,12 +44,79 @@ body {
 		letter-spacing: .5px;
 	}
 
-	img {
+	.topimage {
 		height: 21px;
 		position: relative;
 		bottom: -6px;
 	}
 
+	.whiteback {
+		width: 850px;
+		height: 2000px;
+		margin: 20px auto 0 auto; 
+		padding: 30px 35px 80px 35px;
+		background: white;
+		box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
+	}
+
+	.nav {
+		float: right;
+		margin-top: -55px;
+
+
+	}
+
+	.logo {
+
+	}
+
+	.navitem {
+		margin: 0 7px 0 7px;
+		display: inline-block;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+		color: #0063ab;
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	.carowrap {
+		margin: 15px auto 0 auto;
+		width: 100%;
+	}
+
+	.caroimg {
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.greywrap {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.grey {
+		width: 22px;
+		height: 18px; 
+		background: #b5b5b5;
+		display: inline-block;
+		margin: 0 1px 0 1px;
+	}
+
+	.triplewrapper {
+		margin-top: 64px;
+		width: 100%;
+		text-align: center;
+		
+	}
+
+	.tripleimg {
+		width: calc(100%/3);
+		float: left;
+		display: inline-block;
+		text-align: center;
+	}
 
 
 }
