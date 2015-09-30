@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #005b9e;
+}
+
+@media screen and (min-width: 400px) {
+
+}
+
+
+@media screen and (min-width: 730px) {
+
+}
+
+
+/* start of full screen */
+/* start of full screen */
+/* start of full screen */
+@media screen and (min-width: 930px) {
+	.headbar {
+		width: 100%; 
+		height: 30px; 
+		background: #004f89;
+		border-bottom: 1px solid rgba(255,255,255,.3);
+	}
+	
+	.barwrapper {
+		width: 930px;
+		margin: 0 auto;
+		text-align: center;
+		border: 1px dashed green;
+	}	 
+
+	.bar1, .bar2, .bar3 {
+		color: white;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+		font-size: 10px;
+		display: inline-block;
+		margin: 8px 11px 0 11px;
+	}
+
+
+
+}
+
+
